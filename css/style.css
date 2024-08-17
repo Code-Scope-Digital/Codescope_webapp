@@ -1,8 +1,11 @@
 /********** Template CSS **********/
 :root {
+  /* --primary: #6222CC; */
   --primary: #0a1f44;
+  /* --secondary: #FBA504; */
   --secondary: #d3d3d3;
   --light: #f6f4f9;
+  /* --light: #00aaff; */
   --dark: #04000b;
 }
 
@@ -207,9 +210,9 @@ h6,
 .hero-header {
   margin-bottom: 6rem;
   padding: 18rem 0;
-  background: url(../img/blob-top-left.png), url(../img/blob-top-right.png),
+  /* background: url(../img/blob-top-left.png), url(../img/blob-top-right.png),
     url(../img/blob-bottom-left.png), url(../img/blob-bottom-right.png),
-    url(../img/blob-center.png);
+    url(../img/blob-center.png), url(../img/bg-bottom.png); */
   background-position: left 0px top 0px, right 0px top 0px, left 0px bottom 0px,
     right 0px bottom 0px, center center, center bottom;
   background-repeat: no-repeat;
@@ -475,7 +478,7 @@ h6,
 .footer {
   margin-top: 6rem;
   padding-top: 9rem;
-  background: url(../img/bg-top.png), url(../img/map.png);
+  /* background: url(../img/bg-top.png), url(../img/map.png); */
   background-position: center top, center center;
   background-repeat: no-repeat;
 }
