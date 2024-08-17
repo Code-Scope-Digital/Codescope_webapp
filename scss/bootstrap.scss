@@ -1,9 +1,9 @@
 /******* Customized Bootstrap ********/
 
-$primary: #6222CC;
-$secondary: #FBA504;
-$light: #F6F4F9;
-$dark: #04000B;
+$primary: #0a1f44;
+$secondary: #d3d3d3;
+$light: #f6f4f9;
+$dark: #04000b;
 
 $font-family-base: 'Heebo', sans-serif;
 
@@ -11,7 +11,7 @@ $headings-font-family: 'Jost', sans-serif;
 
 $body-bg: $light;
 
-$body-color: #726D7B;
+$body-color: #726d7b;
 
 $headings-color: $dark;
 
@@ -25,4 +25,4 @@ $link-decoration: none;
 
 $enable-negative-margins: true;
 
-@import "bootstrap/scss/bootstrap";
+@import 'bootstrap/scss/bootstrap';

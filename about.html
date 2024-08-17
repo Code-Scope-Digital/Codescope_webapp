@@ -395,7 +395,7 @@
                 Join our newsletter to receive the latest updates, insights, and
                 exclusive offers straight to your inbox.
               </p>
-              <div class="position-relative w-100 mt-3">
+              <!-- <div class="position-relative w-100 mt-3">
                 <input
                   class="form-control border-0 rounded-pill w-100 ps-4 pe-5"
                   type="text"
@@ -408,7 +408,23 @@
                 >
                   <i class="fa fa-paper-plane text-primary fs-4"></i>
                 </button>
-              </div>
+              </div> -->
+              <form id="newsletterForm" class="position-relative w-100 mt-3">
+                <input
+                  id="newsletterEmail"
+                  class="form-control border-0 rounded-pill w-100 ps-4 pe-5"
+                  type="email"
+                  placeholder="Enter Your Email"
+                  style="height: 48px"
+                  required
+                />
+                <button
+                  type="submit"
+                  class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"
+                >
+                  <i class="fa fa-paper-plane text-primary fs-4"></i>
+                </button>
+              </form>
             </div>
           </div>
         </div>
